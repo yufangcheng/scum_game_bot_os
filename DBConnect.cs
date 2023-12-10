@@ -9,7 +9,7 @@ namespace SCUMBot
 {
     class DBConnect
     {
-        public string connectionString = "SERVER=host;DATABASE=scumbot_development;UID=username;PASSWORD=password;";
+        public string connectionString = "server=127.0.0.1;database=scum_shop;username=root;password=pjdgul2k;";
         private MySqlConnection connection;
 
         public DBConnect()
